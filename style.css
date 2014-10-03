@@ -1,0 +1,89 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("piazza.com") {
+  #popular_tags_bar {
+    height: 29px !important;
+    padding-top: 3px;
+  }
+  #page_main.has_popular_tags_bar > .views{
+    top: 30px !important;
+  }
+  #page_main .main_panel {
+    background-color: #CBCFD3 !important;
+  }
+  .tag {
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+  }
+  .post_region_box {
+    border-radius: 0px !important;
+    border-bottom: 1px solid gray !important;
+    box-shadow: none !important;
+    margin: 1px 0 8px 0 !important;
+  }
+  .post_region_box .post_region_header {
+    padding: 8px !important;
+  }
+  .post_region_box .post_region_actions {
+    font-size: 12px !important;
+    line-height: 21px !important;
+  }
+  .post_region_box .post_region_actions .post_region_actions_meta {
+    font-size: 12px !important;
+    line-height: 25px !important;
+  }
+  .post_region_box .post_region_header .follow_link {
+    font-size: 12px !important;
+    line-height: 22px !important;
+    color: white !important;
+  }
+  .post_region_box .post_region_arrow_dropdown {
+    right: 7px !important;
+    top: 40px !important;
+  }
+  #question .post_region_header {
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left, #ffffff 4%, #d34141 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(4%,#ffffff), color-stop(100%,#d34141)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #ffffff 4%,#d34141 100%); /* Chrome10+,Safari5.1+ */
+background: linear-gradient(to right, #ffffff 4%,#d34141 100%); /* W3C */
+  }
+  #s_answer .post_region_header {
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left,  #ffffff 4%, #5fa36a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(4%,#ffffff), color-stop(100%,#5fa36a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #ffffff 4%,#5fa36a 100%); /* Chrome10+,Safari5.1+ */
+background: linear-gradient(to right,  #ffffff 4%,#5fa36a 100%); /* W3C */
+  }
+  #i_answer .post_region_header {
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left, #ffffff 4%, #ffa411 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(4%,#ffffff), color-stop(100%,#ffa411)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #ffffff 4%,#ffa411 100%); /* Chrome10+,Safari5.1+ */
+background: linear-gradient(to right, #ffffff 4%,#ffa411 100%); /* W3C */
+  }
+  #clarifying_discussion .post_region_header {
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left, #ffffff 4%, #3fa4fc 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(4%,#ffffff), color-stop(100%,#3fa4fc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #ffffff 4%,#3fa4fc 100%); /* Chrome10+,Safari5.1+ */
+background: linear-gradient(to right, #ffffff 4%,#3fa4fc 100%); /* W3C */
+  }
+  .post_region_box .post_region_message_wrapper {
+    margin-top: none !important;
+  }
+  .post_region_box .post_region_message_wrapper .post_region_message.show {
+    margin-top: 12px !important;
+  }
+  .post_region_content .clarifying_discussion {
+    margin: 0 -12px !important;
+    padding: 8px 12px !important;
+    background-color: #F0F0F0 !important;
+  }
+  .post_region_box .discussion_replies {
+    background: #E6E6E6 !important;
+  }
+  #start_new_followup_header {
+    margin-top: 6px !important;
+  }
+}
