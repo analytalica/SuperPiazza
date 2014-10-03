@@ -42,18 +42,18 @@
     top: 40px !important;
   }
   #question .post_region_header {
-background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(left, #ffffff 4%, #d34141 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(4%,#ffffff), color-stop(100%,#d34141)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left, #ffffff 4%,#d34141 100%); /* Chrome10+,Safari5.1+ */
-background: linear-gradient(to right, #ffffff 4%,#d34141 100%); /* W3C */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 4%, rgba(234,37,37,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(4%,rgba(255,255,255,1)), color-stop(100%,rgba(234,37,37,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 4%,rgba(234,37,37,1) 100%); /* Chrome10+,Safari5.1+ */
+background: linear-gradient(to right, rgba(255,255,255,1) 4%,rgba(234,37,37,1) 100%); /* W3C */
   }
   #s_answer .post_region_header {
-background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(left,  #ffffff 4%, #5fa36a 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(4%,#ffffff), color-stop(100%,#5fa36a)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left,  #ffffff 4%,#5fa36a 100%); /* Chrome10+,Safari5.1+ */
-background: linear-gradient(to right,  #ffffff 4%,#5fa36a 100%); /* W3C */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 4%, rgba(124,188,10,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(4%,rgba(255,255,255,1)), color-stop(100%,rgba(124,188,10,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 4%,rgba(124,188,10,1) 100%); /* Chrome10+,Safari5.1+ */
+background: linear-gradient(to right, rgba(255,255,255,1) 4%,rgba(124,188,10,1) 100%); /* W3C */
   }
   #i_answer .post_region_header {
 background: #ffffff; /* Old browsers */
@@ -85,5 +85,16 @@ background: linear-gradient(to right, #ffffff 4%,#3fa4fc 100%); /* W3C */
   }
   #start_new_followup_header {
     margin-top: 6px !important;
+  }
+  /* Question Feed */
+  .page_feed .feed_item.unread .unread_indicator {
+background: rgb(109,179,242); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(109,179,242,1)), color-stop(50%,rgba(84,163,238,1)), color-stop(51%,rgba(54,144,240,1)), color-stop(100%,rgba(30,105,222,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* Chrome10+,Safari5.1+ */
+background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* W3C */
+  }
+  .page_feed .feed_item .unread_indicator {
+    width: 15px;
   }
 }
