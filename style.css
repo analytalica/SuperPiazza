@@ -5,11 +5,15 @@
     height: 29px !important;
     padding-top: 3px;
   }
+  #popular_tags_bar .popular_tag_number {
+    font-size: 10px !important;
+    margin-top: -2px !important;
+  }
   #page_main.has_popular_tags_bar > .views{
     top: 30px !important;
   }
   #page_main .main_panel {
-    background-color: #CBCFD3 !important;
+    background-color: #DBDBDB !important;
   }
   .tag {
     text-transform: uppercase !important;
@@ -69,11 +73,31 @@ background: -webkit-gradient(linear, left top, right top, color-stop(4%,#ffffff)
 background: -webkit-linear-gradient(left, #ffffff 4%,#3fa4fc 100%); /* Chrome10+,Safari5.1+ */
 background: linear-gradient(to right, #ffffff 4%,#3fa4fc 100%); /* W3C */
   }
-  .post_region_box .post_region_message_wrapper {
-    margin-top: none !important;
+  #note .post_region_header {
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 4%, rgba(68,68,68,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(4%,rgba(255,255,255,1)), color-stop(100%,rgba(68,68,68,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 4%,rgba(68,68,68,1) 100%); /* Chrome10+,Safari5.1+ */
+background: linear-gradient(to right, rgba(255,255,255,1) 4%,rgba(68,68,68,1) 100%); /* W3C */
+  }
+  #poll .post_region_header {
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 4%, rgba(68,68,68,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(4%,rgba(255,255,255,1)), color-stop(100%,rgba(68,68,68,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 4%,rgba(68,68,68,1) 100%); /* Chrome10+,Safari5.1+ */
+background: linear-gradient(to right, rgba(255,255,255,1) 4%,rgba(68,68,68,1) 100%); /* W3C */
   }
   .post_region_box .post_region_message_wrapper .post_region_message.show {
     margin-top: 12px !important;
+  }
+  .post_region_box .post_region_message_wrapper {
+    margin-top: 0px !important;
+  }
+  .post_region_box .post_region_message_wrapper .post_region_message.endorse {
+    position: absolute !important;
+    left: 0 !important;
+    right: 3% !important;
+    margin-top: 23px !important;
   }
   .post_region_content .clarifying_discussion {
     margin: 0 -12px !important;
@@ -87,6 +111,22 @@ background: linear-gradient(to right, #ffffff 4%,#3fa4fc 100%); /* W3C */
     margin-top: 6px !important;
   }
   /* Question Feed */
+  /*#question_feed_questions.scrollable {
+    overflow: hidden !important;
+  }
+  #question_feed_questions.scrollable:hover {
+    overflow-y: auto !important;
+  }*/
+  .start_open.page_feed_bucket_header {
+background: rgb(160,160,160); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(160,160,160,1) 0%, rgba(91,91,91,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(160,160,160,1)), color-stop(100%,rgba(91,91,91,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(160,160,160,1) 0%,rgba(91,91,91,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(160,160,160,1) 0%,rgba(91,91,91,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(160,160,160,1) 0%,rgba(91,91,91,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(160,160,160,1) 0%,rgba(91,91,91,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0a0a0', endColorstr='#5b5b5b',GradientType=0 ); /* IE6-9 */
+  }
   .page_feed .feed_item.unread .unread_indicator {
 background: rgb(109,179,242); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%); /* FF3.6+ */
@@ -95,6 +135,16 @@ background: -webkit-linear-gradient(top, rgba(109,179,242,1) 0%,rgba(84,163,238,
 background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* W3C */
   }
   .page_feed .feed_item .unread_indicator {
-    width: 15px;
+    width: 12px !important;
+  }
+  .page_feed .feed_item.selected {
+  /* TODO Fix for this and unanswered */
+  }
+  #question_feed_questions .question_group {
+    margin-top: -1px !important;
+  }
+  .page_feed .page_feed_bucket_header {
+    color: white !important;
+    text-shadow: none !important;
   }
 }
