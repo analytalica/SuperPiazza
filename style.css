@@ -22,6 +22,9 @@
     text-transform: uppercase !important;
     font-size: 12px !important;
   }
+  .slider.slider-horizontal{
+    width: 100% !important;
+  }
   .post_region_box {
     border-radius: 0px !important;
     /* border-bottom: 1px solid gray !important;*/
@@ -46,7 +49,7 @@
   }
   .post_region_box .post_region_arrow_dropdown {
     right: 7px !important;
-    top: 40px !important;
+    top: 39px !important;
   }
   .post_region_box .post_region_header .post_title {
     color: white !important;
