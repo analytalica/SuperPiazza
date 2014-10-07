@@ -1,4 +1,4 @@
-Version 0.1.2 (Master branch)
+Version 0.2.0 (Master branch)
 
 SuperPiazza is a styling overhaul for Piazza.
 

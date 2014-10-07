@@ -7,6 +7,8 @@
   }
   #popular_tags_bar .tag {
     font-family: Tahoma, Geneva, sans-serif !important;
+    margin-top: 6px !important;
+    padding-top: 0px !important;
   }
   #popular_tags_bar .popular_tag_number {
     font-size: 10px !important;
